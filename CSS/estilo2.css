@@ -1,5 +1,58 @@
+/*reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
 body {
     background-color: rgb(140, 121, 165);
     color: rgb(217, 205, 228);
     font-family: 'Pixelify Sans', cursive;
+}
+
+
+.cuadrado {
+    font-size: 50px;
+    position: relative;
+    left: 0px;
+    right: 0px;
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    border-radius: 70px;
+    width: 910px;
+    height: 200px;
+    background-color: rebeccapurple;
+    padding: 10px;
+    
+    animation-name: cuadrado;
+    animation-duration: 5s;
+    animation-delay: 1s;
+
+    
+}
+@keyframes cuadrado {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
+
+/*Media*/
+@media (max-width: 768px)  {
+    * {
+        font-size: 20px;
+}
 }
