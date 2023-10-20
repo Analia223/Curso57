@@ -31,18 +31,47 @@ header {
     padding: 20px;
 }
 
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+a:visited {
+    text-decoration: none;
+    color: aliceblue;
+}
+
 /*Otros*/
+.algo {
+    background-color: rgb(228, 213, 233); box-sizing: content-box; width: 200px; padding: 0; border:10px solid rgb(226, 175, 233); margin-right: 20px;
+}
+.algo:hover {
+    transform: translate(0px, -10px);
+    box-shadow: 5px 10px 0px 0px rgba(0, 0, 0, 0.3);
+}
 .Aprender {
     color: rgb(185, 179, 190);
-    margin-bottom: 50px
+    margin-bottom: 50px;
     
 
+}
+.boton {
+    background-color: rgb(245, 138, 218); color: rgb(190, 178, 178); padding: 10px 20px; border: none; text-align: center; text-decoration: none; display: inline-block; font-size: 15px; margin: 20px; cursor: pointer; border-radius: 100px;
+}
+.boton:hover {
+    background-color: rgb(228, 73, 189); 
+    color: rgb(194, 146, 146);
+}
+.titulos {
+    text-align: center;
 }
 .mapa {
     background-color: rgb(216, 216, 187);
+    padding: 15px;
     
 }
-
+#Dondeestudiar {
+    margin-bottom: 15px;
+}
 
 .fundamentos {
     margin-bottom: 50px ;
