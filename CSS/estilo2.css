@@ -6,12 +6,9 @@
     font-size: 20px;
 }
 
-body {
-    background-color: rgb(140, 121, 165);
-    color: rgb(217, 205, 228);
-    font-family: 'Pixelify Sans', cursive;
-}
 
+
+/*Volver al inicio*/
 
 .cuadrado {
     font-size: 50px;
@@ -26,9 +23,9 @@ body {
     text-align: center;
 
     border-radius: 70px;
-    width: 910px;
+    width: 1650px;
     height: 200px;
-    background-color: rebeccapurple;
+    background-color: rgb(153, 131, 175);
     padding: 10px;
     
     animation-name: cuadrado;
