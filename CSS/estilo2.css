@@ -4,9 +4,37 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 20px;
+    font-family: 'Pixelify Sans', cursive;
 }
 
 
+.colorfondo {
+    background-color: rgb(140, 121, 165);
+    color: rgb(59, 16, 99);
+    
+}
+
+/*Nav*/
+.navegador {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: large;
+
+}
+.navegador a{
+    color: rgb(220, 191, 223);
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+a:visited {
+    text-decoration: none;
+    color: aliceblue;
+}
 
 /*Volver al inicio*/
 
@@ -33,12 +61,13 @@
     animation-delay: 1s;
     
 }
+
+
 @keyframes cuadrado {
-	0%,
-	50%,
-	100% {
-		opacity: 1;
-	}
+    0%, 
+    50%, 
+    100% {
+		opacity: 1;}
 
 	25%,
 	75% {
