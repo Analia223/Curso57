@@ -73,52 +73,6 @@ a:visited {
 .titulos {
     text-align: center;
 }
-/*Mapa*/
-.mapa {
-    background-color: rgb(216, 216, 187);
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-#Dondeestudiar {
-    margin-bottom: 15px;
-}
-
-/*Videos*/
-.videos {
-    margin:  15px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-
-/*Tamaño del iframe*/
-iframe {  
-    width: 560px;
-    height: 300px;
-}
-.fundamentos {
-    margin-bottom: 50px ;
-}
-form fieldset {
-    border: none
-}
-form fieldset{
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-#formulario {
-    text-align: center;
-}
 
 /*Pie de pagina*/
 footer {
@@ -140,11 +94,6 @@ footer {
         align-items: center;
         
     }
-    iframe { 
-        width: 360px;
-        height: 200px; 
-    }
-    
 }
 
 @media (max-width: 480px)  {
@@ -157,9 +106,5 @@ footer {
         align-items: center;
         
     }
-    iframe { 
-        width: 360px;
-        height: 200px; 
-    }
-    
+
 }

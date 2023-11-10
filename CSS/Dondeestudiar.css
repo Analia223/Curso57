@@ -1,0 +1,93 @@
+/*reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'Pixelify Sans', cursive;
+}
+
+
+.colorfondo {
+    background-color: rgb(140, 121, 165);
+    color: rgb(59, 16, 99);
+    
+}
+
+/*---Nav---*/
+.navegador {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: large;
+
+}
+.navegador a{
+    color: rgb(220, 191, 223);
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+a:visited {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/*Mapa*/
+.mapa {
+    background-color: rgb(216, 216, 187);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#Dondeestudiar {
+    margin-bottom: 15px;
+}
+
+/*Videos*/
+.videos {
+    margin:  15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+/*Tamaño del iframe*/
+iframe {  
+    width: 560px;
+    height: 300px;
+}
+/*Media*/
+@media (max-width: 768px)  {
+    * {
+        font-size: 12px;
+    }
+    iframe { 
+        width: 360px;
+        height: 200px; 
+    }
+    
+}
+
+@media (max-width: 480px)  {
+    * {
+        font-size: 12px;
+    }
+    iframe { 
+        width: 360px;
+        height: 200px; 
+    }
+    
+}

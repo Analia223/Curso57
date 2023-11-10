@@ -36,48 +36,28 @@ a:visited {
     color: aliceblue;
 }
 
-/*Volver al inicio*/
+/*Bibliografia*/
 
-.cuadrado {
-    font-size: 50px;
-    position: relative;
-    left: 0px;
-    right: 0px;
-    
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
-    border-radius: 70px;
-    width: 1650px;
-    height: 200px;
-    background-color: rgb(153, 131, 175);
-    padding: 10px;
-    
-    animation-name: cuadrado;
-    animation-duration: 5s;
-    animation-delay: 1s;
-    
+.fundamentos {
+    margin-bottom: 50px ;
 }
 
-
-@keyframes cuadrado {
-    0%, 
-    50%, 
-    100% {
-		opacity: 1;}
-
-	25%,
-	75% {
-		opacity: 0;
-	}
-}
 
 /*Media*/
 @media (max-width: 768px)  {
     * {
         font-size: 20px;
 }
+}
+
+@media (max-width: 480px)  {
+    * {
+        font-size: 12px;
+    }
+    .cajitas {
+        flex-direction: column; 
+        gap: 10px;
+        align-items: center;
+        
+    }
 }
